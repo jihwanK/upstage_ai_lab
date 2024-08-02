@@ -6,7 +6,7 @@ from logger import Logger
 import requests
 
 def main():
-    API_KEY = '51e1c9f18f49f8ad5f91a0573510a3b1'  # openweathermap API 키 입력
+    API_KEY = ''  # openweathermap API 키 입력
     city = input("Which City? ")
 
     fetcher = DataFetcher(API_KEY, city)
